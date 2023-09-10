@@ -2,7 +2,7 @@
 
 ## Download
 
-* Beware: Do not download the code via the github "Download ZIP" (cgp submodule are not included)
+_Beware: Do not download the code via the github "Download ZIP" GUI (cgp submodule are not included)_
 
 ### Via Clone
 
