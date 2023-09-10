@@ -7,14 +7,14 @@ _Beware: Do not download the code via the github "Download ZIP" GUI (cgp submodu
 ### Via Clone
 
 ```
-git clone --recurse-submodules git@github.com:drohmer/epita_ani3d_code.git
+git clone --recurse-submodules git@github.com:drohmer/epita_ani3d_lab_code.git
 ```
 
 or 
 
 ```
-git clone git@github.com:drohmer/epita_ani3d_code.git
-cd inf443_practice_code/
+git clone git@github.com:drohmer/epita_ani3d_lab_code.git
+cd epita_ani3d_lab_code/
 git submodule init
 git submodule update
 ```
@@ -34,7 +34,7 @@ Each scene is provided with its own CMakeLists.txt and Makefile
 
 Compilation via CMake
 ```
-cd scenes_inf443/01_introduction/
+cd scenes_epita_ani3d/01_introduction/
 cmake -B build/
 cd build/
 make -j$(nproc)
@@ -43,7 +43,7 @@ make -j$(nproc)
 
 Compilation via Makefile
 ```
-cd scenes_inf443/01_introduction/
+cd scenes_epita_ani3d/01_introduction/
 make -j$(nproc)
 ./00_introduction
 ```
