@@ -19,6 +19,12 @@ git submodule init
 git submodule update
 ```
 
+### Archive download
+
+* [inf443_practice_code.zip](https://imagecomputing.net/damien.rohmer/teaching/inf443/code/inf443_practice_code.zip)
+
+
+
 ## Compilation
 
 Scenes are in a directory _scenes_epita_ani3d/xx_Name/_
