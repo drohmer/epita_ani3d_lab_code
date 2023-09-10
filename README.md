@@ -21,7 +21,8 @@ git submodule update
 
 ### Archive download
 
-* [inf443_practice_code.zip](https://imagecomputing.net/damien.rohmer/teaching/inf443/code/inf443_practice_code.zip)
+* [epita_ani3d_lab_code.zip](https://imagecomputing.net/course/2023_2024/epita_ani3d/lab_code/epita_ani3d_lab_code.zip)
+* [epita_ani3d_lab_code.tar.gz](https://imagecomputing.net/course/2023_2024/epita_ani3d/lab_code/epita_ani3d_lab_code.tar.gz)
 
 
 
