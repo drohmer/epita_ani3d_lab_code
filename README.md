@@ -39,14 +39,14 @@ cd scenes_epita_ani3d/01_introduction/
 cmake -B build/
 cd build/
 make -j$(nproc)
-./00_introduction
+./01_introduction
 ```
 
 Compilation via Makefile
 ```
 cd scenes_epita_ani3d/01_introduction/
 make -j$(nproc)
-./00_introduction
+./01_introduction
 ```
 
 More details are provided in the dedicated [Installation setup and Compilation page](https://imagecomputing.net/cgp/compilation) if needed (Windows, Linux, Mac).
@@ -65,6 +65,6 @@ sudo apt-get install libglfw3-dev
 
 ## Links
 
-* [Lab class exercises](https://damienrohmer.com/data/teaching/2022_2023/x-inf443/practice/index.html)
+* [Lab class exercises](https://imagecomputing.net/course/2023_2024/epita_ani3d/lab/index.html)
 * [Documentation on CGP library](https://imagecomputing.net/cgp/index.html)
 
