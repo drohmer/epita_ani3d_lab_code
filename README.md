@@ -1,1 +1,1 @@
-= Source code for EPITA Ani3D labs
+# Source code for EPITA Ani3D labs
