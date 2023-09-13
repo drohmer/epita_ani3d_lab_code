@@ -39,7 +39,7 @@ void scene_structure::initialize()
 	float L = 3;
 	mesh ground_mesh = mesh_primitive_quadrangle({ -L,-L,z_floor }, { L,-L,z_floor }, { L,L,z_floor }, { -L,L,z_floor });
 	ground.initialize_data_on_gpu(ground_mesh);
-	ground.texture.load_and_initialize_texture_2d_on_gpu("assets/checkboard.png");
+	ground.texture.load_and_initialize_texture_2d_on_gpu(project::path +"assets/checkboard.png");
 
 }
 
