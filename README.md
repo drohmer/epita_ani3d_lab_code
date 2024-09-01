@@ -7,13 +7,13 @@ _Beware: Do not download the code via the github "Download ZIP" GUI (cgp submodu
 ### Via Clone
 
 ```
-git clone --recurse-submodules git@github.com:drohmer/epita_ani3d_lab_code.git
+git clone --recurse-submodules https://github.com/drohmer/epita_ani3d_lab_code.git
 ```
 
 or 
 
 ```
-git clone git@github.com:drohmer/epita_ani3d_lab_code.git
+git clone https://github.com/drohmer/epita_ani3d_lab_code.git
 cd epita_ani3d_lab_code/
 git submodule init
 git submodule update
