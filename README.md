@@ -35,18 +35,18 @@ Each scene is provided with its own CMakeLists.txt and Makefile
 
 Compilation via CMake
 ```
-cd scenes_epita_ani3d/01_introduction/
+cd scenes_epita_ani3d/00_introduction/
 cmake -B build/
 cd build/
 make -j$(nproc)
-./01_introduction
+./00_introduction
 ```
 
 Compilation via Makefile
 ```
-cd scenes_epita_ani3d/01_introduction/
+cd scenes_epita_ani3d/00_introduction/
 make -j$(nproc)
-./01_introduction
+./00_introduction
 ```
 
 More details are provided in the dedicated [Installation setup and Compilation page](https://imagecomputing.net/cgp/compilation) if needed (Windows, Linux, Mac).
@@ -65,6 +65,6 @@ sudo apt-get install libglfw3-dev
 
 ## Links
 
-* [Lab class exercises](https://imagecomputing.net/course/2023_2024/epita_ani3d/lab/index.html)
-* [Documentation on CGP library](https://imagecomputing.net/cgp/index.html)
+* [Lab class exercises](https://graphicscomputing.fr/course/2024_2025/epita_ani3d/)
+* [Documentation on CGP library](https://graphicscomputing.fr/cgp/documentation/)
 
