@@ -35,7 +35,7 @@ Each scene is provided with its own CMakeLists.txt and Makefile
 
 Compilation via CMake
 ```
-cd scenes_epita_ani3d/00_introduction/
+cd scenes_ani3d/00_introduction/
 cmake -B build/
 cd build/
 make -j$(nproc)
@@ -44,7 +44,7 @@ make -j$(nproc)
 
 Compilation via Makefile
 ```
-cd scenes_epita_ani3d/00_introduction/
+cd scenes_ani3d/00_introduction/
 make -j$(nproc)
 ./00_introduction
 ```
