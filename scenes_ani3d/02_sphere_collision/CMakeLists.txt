@@ -46,7 +46,7 @@ include_directories(${ABS_PATH_TO_CGP})
 message(STATUS "Include CGP lib and external dependencies files from relative path")
 include(${ABS_PATH_TO_CGP}/CMakeLists.txt)
 
-add_definitions(-DSOLUTION)
+#add_definitions(-DSOLUTION)
 
 # Uncomment the following line to remove assertion checks from CGP library (for full efficiency)
 # add_definitions(-DCGP_NO_DEBUG)

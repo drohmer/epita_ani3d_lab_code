@@ -9,7 +9,7 @@ using namespace cgp;
 void simulate(std::vector<particle_structure>& particles, float dt_arg)
 {
 
-	size_t const N_substep = 10;
+	size_t const N_substep = 1; // Increase this number for faster simulation (more simulation steps for a given frame)
 	float const dt = dt_arg / N_substep;
 	for (size_t k_substep = 0; k_substep < N_substep; ++k_substep)
 	{

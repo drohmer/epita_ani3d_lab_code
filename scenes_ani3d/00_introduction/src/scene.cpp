@@ -99,12 +99,14 @@ void scene_structure::display_frame()
 	// Display cube
 	// ********************************************* //
 
-	cube.model.rotation = rotation_transform::from_axis_angle({ 0,0,1 }, std::sin(3 * time));
+	cube.model.rotation = rotation_axis_angle({ 0,0,1 }/*axis*/, std::sin(3 * time)/*angle*/);
+	// Or, equivalently,
+	// cube.model.rotation = rotation_transform::from_axis_angle({ 0,0,1 }, std::sin(3 * time));
 	cube.model.translation = { -1,0,0 };
 	draw(cube, environment);
 
 	curve.model.translation = { 1.9f,0,0 };
-	curve.model.rotation = rotation_transform::from_axis_angle({ 0,1,0 }, time);
+	curve.model.rotation = rotation_axis_angle({ 0,1,0 }, time);
 	draw(curve, environment);
 
 }
