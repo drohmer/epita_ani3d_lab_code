@@ -42,7 +42,7 @@ void effect_transition_compute(effect_transition_structure& effect_transition, c
 	// Compute the skeleton from the source animation
 	model.set_skeleton_from_animation(transition.source_anim, transition.timer_source_anim.t_periodic);
 	numarray<mat4> joint_source_anim_local = model.skeleton.joint_matrix_local;
-	numarray<mat4> joint_source_anim_global = model.skeleton.joint_matrix_local;
+	numarray<mat4> joint_source_anim_global = model.skeleton.joint_matrix_global;
 
 	// Compute the skeleton from the destination animation
 	model.set_skeleton_from_animation(transition.destination_anim, transition.timer_destination_anim.t_periodic);
