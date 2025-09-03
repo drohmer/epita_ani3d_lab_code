@@ -21,8 +21,8 @@ git submodule update
 
 ### Archive download
 
-* [epita_ani3d_lab_code.zip](https://graphicscomputing.fr/course/2024_2025/epita_ani3d/lab_code/epita_ani3d_lab_code.zip)
-* [epita_ani3d_lab_code.tar.gz](https://graphicscomputing.fr/course/2024_2025/epita_ani3d/lab_code/epita_ani3d_lab_code.tar.gz)
+* [epita_ani3d_lab_code.zip](https://graphicscomputing.fr/course/2025_2026/epita_ani3d/lab_code/epita_ani3d_lab_code.zip)
+* [epita_ani3d_lab_code.tar.gz](https://graphicscomputing.fr/course/2025_2026/epita_ani3d/lab_code/epita_ani3d_lab_code.tar.gz)
 
 
 
