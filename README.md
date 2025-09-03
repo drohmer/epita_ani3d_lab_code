@@ -28,7 +28,7 @@ git submodule update
 
 ## Compilation
 
-Scenes are in a directory _scenes_epita_ani3d/xx_Name/_
+Scenes are in a directory _scenes_ani3d/xx_Name/_
 
 
 Each scene is provided with its own CMakeLists.txt and Makefile
